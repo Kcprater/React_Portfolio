@@ -1,26 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Home from './site/Home';
+import Sitebar from './navbar/Sitebar';
+import Footer from './site/Footer';
+import About from './site/About';
+import Projects from './site/Projects'
+import Contact from './site/Contact'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-function App() {
+
+function Portfolio() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Sitebar/>
+      <Home/>
+      <About/>
+      <br/>
+      <br/>
+      <Projects/>
+      <Contact/>
+      <Footer/>
     </div>
   );
 }
 
-export default App;
+export default Portfolio;

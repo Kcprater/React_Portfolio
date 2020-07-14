@@ -1,0 +1,15 @@
+.contactLogo{
+    height: 3em;
+}
+
+#email{
+    border: 2px solid black;
+}
+
+#name{
+    border: 2px solid black;
+}
+
+#message{
+    border: 2px solid black;
+}
