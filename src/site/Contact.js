@@ -8,7 +8,7 @@ const Contact = () => {
                 <Container>
                 <br/>
                 <br/>
-                <h1 class="text-center">Contact Me</h1>
+                <h1 id="contactTitle">Contact Me</h1>
                 <Row>
                     <Col>
                         <Form className="contactMe" action="https://formspree.io/kristopherprater@gmail.com" method="POST">
@@ -49,8 +49,7 @@ const Contact = () => {
             <br/>
             <br/>
                 <Container id="logoContainer">
-                    <Row md="12">
-                        <Col md="4"></Col>
+                    <Row className="justify-content-md-center">
                         <Col md="1">
                             <div>
                                 <a href="https://www.linkedin.com/in/kristopher-c-prater/">
@@ -74,7 +73,6 @@ const Contact = () => {
                                 </a>
                             </div>
                         </Col>
-                        <Col md="5"></Col>
                     </Row>
                 </Container>
                 <br/>

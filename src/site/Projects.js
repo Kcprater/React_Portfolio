@@ -6,7 +6,7 @@ import {Card, CardImg, CardHeader, CardText, CardBody, CardTitle} from 'reactstr
 const Projects = () => {
   return (
       <div id="myProjects">
-          <h1 id="projectTitle">Hello World - These are some of my projects</h1>
+          <h1 id="projectTitle">Hello World! - Check out some of my projects.</h1>
           <br></br>
           <Row>
               <Col sm="3">
@@ -30,7 +30,7 @@ const Projects = () => {
                 </a>
                 <CardBody>
                     <CardTitle>CSS/HTML 8-Bit Super Mario</CardTitle>
-                    <CardText>This is my second creature created using only CSS/HTML. This time it was created while attending the Software Development Bootcamp at Eleven Fifty Academy.</CardText>
+                    <CardText>This is my second creature created using only CSS/HTML. It was also created while attending the Software Development Bootcamp at Eleven Fifty Academy.</CardText>
                 </CardBody>
                 </Card>
                 </Col>
@@ -43,7 +43,7 @@ const Projects = () => {
                 </a>
                 <CardBody>
                     <CardTitle>1st Static Layout</CardTitle>
-                    <CardText>A static version of Hulu.com. The layout was created using FLexbox and no other outside libraries.</CardText>
+                    <CardText>A static version of Hulu.com. The layout was created using Flexbox and no other outside libraries.</CardText>
                 </CardBody>
                 </Card>
                 </Col>
@@ -61,7 +61,8 @@ const Projects = () => {
                 </Card>
                 </Col>
             </Row>
-
+            <br/>
+            <br/>
             <Row>
             <Col sm="3">
                 <Card>
@@ -71,7 +72,7 @@ const Projects = () => {
                 </a>
                 <CardBody>
                     <CardTitle>Working with an API</CardTitle>
-                    <CardText>This project was built to reach out to the Harry Potter API(potterapi.com) and decide what House at Hogwarts School of Magic the person should be assigned to after entering their name. Once a House is picked for the user information about the house and others members is displayed. This app was built using Javascript, HTML, and CSS.</CardText>
+                    <CardText>This project was built to reach out to the Harry Potter API(potterapi.com) and decide what House at Hogwarts School of Magic the person should be assigned to after entering their name. Once a House is picked for the user, information about the house and other members is displayed. This app was built using Javascript, HTML, and CSS.</CardText>
                 </CardBody>
                 </Card>
                 </Col>
@@ -97,7 +98,7 @@ const Projects = () => {
                 </a>
                 <CardBody>
                     <CardTitle>Pawcious Memories</CardTitle>
-                    <CardText>React Application and Node server built while working in a Team. This project utilizes PostgreSQL, Express, Node and React, as well as using a couple libraries to help with design and layout. This application was built to allow the user to add information about their pets as well as add photos and memories.</CardText>
+                    <CardText>React Application and Node server built while working in a team (remotely). This project utilizes PostgreSQL, Express, Node and React, as well as using a couple libraries to help with design and layout. This application was built to allow the user to add information about their pets as well as add photos and memories.</CardText>
                 </CardBody>
                 </Card>
                 </Col>
@@ -110,7 +111,7 @@ const Projects = () => {
                 </a>
                 <CardBody>
                     <CardTitle>TEST</CardTitle>
-                    <CardText>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur magna ipsum, vel lobortis leo pharetra vel. Duis diam dolor, malesuada vel imperdiet ut, posuere sed lacus. Nulla non diam vehicula, pharetra mauris quis, venenatis eros. Nunc sit amet mauris quis enim iaculis tristique. Vivamus est eros, commodo ut eros tincidunt, gravida ornare purus. In ullamcorper fermentum diam ac malesuada.</CardText>
+                    <CardText>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur magna ipsum, vel lobortis leo pharetra vel. Duis diam dolor, malesuada vel imperdiet ut, posuere sed lacus. Nulla non diam vehicula, pharetra mauris quis, venenatis eros. Nunc sit amet mauris quis enim iaculis tristique.</CardText>
                 </CardBody>
                 </Card>
                 </Col>

@@ -1,29 +1,51 @@
 #aboutTitle{
     text-align: center;
+    padding-top: 2em;
+    margin-top: -2em;
 }
 
 #qualifications{
     text-align: left;
 }
 .aboutContainer{
-    text-align: center;
-    padding-left: 3em;
-    padding-right: 3em;
+    /* text-align: center; */
+    padding-left: 10em;
+    padding-right: 7em;
 }
-.headshot {
+#headshot {
     width: 20em;
     height: auto;
     border-radius: 50%;
+    float: none;
+    margin: 0 auto;
+}
+
+.img-fluid{
+    border-radius: 50%;
+    padding-right: 3em;
+    padding-left: 3em;
+}
+
+#columnOne{
+    padding-top: 5em;
+}
+
+#columnThree{
+    padding-top: 5em;
 }
 
 #resume{
-    font-size: large;
+    font-size: x-large;
     text-align: center;
+}
+
+li{
+    font-size: x-large;
 }
 
 .skills{
     height: 4em;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
+}
+#aboutText{
+    font-size: x-large;
 }

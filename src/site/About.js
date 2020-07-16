@@ -6,29 +6,30 @@ import Resume from '../assets/Resume.pdf';
 const About = () => {
   return (
     <section id="aboutMe">
-        <h1 id="aboutTitle">All about me...Kris Prater</h1>
+        <h1 id="aboutTitle">A little about me...</h1>
         <br/>
         <br/>
         <div className="aboutContainer">
         <Row className="row">
-            <Col>
-            <h3>Who I am</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse congue non sapien et accumsan. Aliquam imperdiet varius nunc, non porttitor nunc porta sed. Sed placerat nisi in aliquet pharetra. Aliquam condimentum condimentum odio, mollis mollis nibh dapibus sed. Sed faucibus interdum lacinia. Cras quis euismod ipsum, sed faucibus metus. Ut ut dui eu ante blandit varius et tempus lacus. Integer non augue facilisis, tristique nisl a, pellentesque libero. Proin dignissim placerat consequat. Aliquam fermentum tincidunt lacus, a scelerisque est posuere nec. Quisque vel libero eget ipsum varius rutrum vitae ac lorem. Morbi luctus risus sit amet nulla faucibus, nec sagittis ipsum aliquet. Cras ac augue eget mauris consectetur ultricies nec ornare neque. Duis dapibus placerat sollicitudin. Quisque lacinia mi sodales molestie ullamcorper. Donec et eros pretium, ultrices dolor vel, dictum magna.</p>
-            <ul id="qualifications">
-                <li>Degree</li>
-                <li>managment</li>
-                <li>customer service</li>
-            </ul>
+            <Col id="columnOne">
+            {/* <h3>Who I am</h3> */}
+            <p id="aboutText"> After a decade of working for the same company, in the warehouse industry, at levels varying from entry level to middle management I decided it was time for a change.  I left what I knew and embarked on a new journey in the world of computers. I am a recent graduate of the Web Development Bootcamp at Eleven Fifty Academy. After such a great experience and the feeling of accomplishment from all that I learned I decided to start the Software Development program. Outside of coding I am an avid football and race fan, and enjoy traveling with my family.</p>
             </Col>
             
             <Col>
-                {/* <h3>Picture of Me</h3> */}
-                <img src={require('../assets/KrisPrater.jpg')} alt="Kris Prater" className="headshot"/>
+                <img src={require('../assets/KrisPrater.jpg')} alt="Kris Prater" className="headshot" class="img-fluid"/>
             </Col>
             
-            <Col>
-                <h3>Some Information</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse congue non sapien et accumsan. Aliquam imperdiet varius nunc, non porttitor nunc porta sed. Sed placerat nisi in aliquet pharetra. Aliquam condimentum condimentum odio, mollis mollis nibh dapibus sed. Sed faucibus interdum lacinia. Cras quis euismod ipsum, sed faucibus metus. Ut ut dui eu ante blandit varius et tempus lacus. Integer non augue facilisis, tristique nisl a, pellentesque libero. Proin dignissim placerat consequat. Aliquam fermentum tincidunt lacus, a scelerisque est posuere nec. Quisque vel libero eget ipsum varius rutrum vitae ac lorem. Morbi luctus risus sit amet nulla faucibus, nec sagittis ipsum aliquet. Cras ac augue eget mauris consectetur ultricies nec ornare neque. Duis dapibus placerat sollicitudin. Quisque lacinia mi sodales molestie ullamcorper. Donec et eros pretium, ultrices dolor vel, dictum magna.</p>
+            <Col id="columnThree">
+                {/* <h3>Some Information</h3> */}
+                <ul>
+                        <li>Bachelor's Degree from Indiana University</li>
+                        <li>15 years of management experience</li>
+                        <li>20 years of customer service experience</li>
+                        <li>Proficient in Microsoft Office</li>
+                        <li>Skilled in Javascript, React, TypeScript, CSS, HTML</li>
+                        <li>Learning C#</li>
+                </ul>
                 <div id="resume"> 
                         <a href={Resume} download="Kris_Prater_Resume.pdf">Click to download my resume!</a>
                 </div>
