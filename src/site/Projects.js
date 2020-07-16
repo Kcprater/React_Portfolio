@@ -26,7 +26,7 @@ const Projects = () => {
                 <Card>
                 <CardHeader>2nd CSS Creature</CardHeader>
                 <a style={{cursor: 'pointer'}} href="https://codepen.io/kcprater/pen/GRomKLd">
-                <CardImg img src={require('../assets/cssMario.png')} alt="CSS-Super-Mario" className="projectImg"/>
+                <CardImg width="100%" img src={require('../assets/cssMario.png')} alt="CSS-Super-Mario" className="projectImg"/>
                 </a>
                 <CardBody>
                     <CardTitle>CSS/HTML 8-Bit Super Mario</CardTitle>
