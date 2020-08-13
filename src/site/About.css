@@ -1,7 +1,7 @@
 #aboutTitle{
     text-align: center;
-    padding-top: 2em;
-    margin-top: -2em;
+    padding-top: 4rem;
+    margin-top: -4rem;
 }
 
 #qualifications{
@@ -9,43 +9,69 @@
 }
 .aboutContainer{
     /* text-align: center; */
-    padding-left: 10em;
-    padding-right: 7em;
+    padding-left: 10rem;
+    padding-right: 7rem;
 }
-#headshot {
-    width: 20em;
+/* #headshot {
+    width: 10rem;
     height: auto;
     border-radius: 50%;
     float: none;
     margin: 0 auto;
-}
+} */
 
 .img-fluid{
+    width: 25rem;
+    display: flex;
+    /* justify-content: center; */
+    /* align-content: center; */
+    /* float: none; */
+    margin: 0 auto;
     border-radius: 50%;
-    padding-right: 3em;
-    padding-left: 3em;
+    /* padding-right: 3rem; */
+    /* padding-left: 3rem; */
 }
 
-#columnOne{
-    padding-top: 5em;
+.columnOne{
+    padding-top: 1rem;
+    width: 100%;
+}
+@media(max-width: 375px){
+    .columnOne {
+        width: 100%;
+        text-align: left;
+    }
+    #aboutText{
+        color: blue;
+        font-size: 5px;
+        margin: 0 -10rem 0 -8rem
+    }
 }
 
 #columnThree{
-    padding-top: 5em;
+    padding-top: 1rem;
+    /* width: 40%; */
 }
 
 #resume{
-    font-size: x-large;
+    font-size: 1.5rem;
     text-align: center;
 }
 
 li{
-    font-size: x-large;
+    font-size: 1.5rem;
 }
 
 .skills{
-    height: 4em;
+    height: 4rem;
 }
 #aboutText{
-    font-size: x-large;
+    font-size: 1.5rem;
 }
+
+/* @media (max-width: 576px) {
+    #aboutText {
+        font-size: 15px;
+    }
+} */
+

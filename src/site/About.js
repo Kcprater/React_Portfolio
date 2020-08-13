@@ -1,23 +1,24 @@
 import React from "react";
+import './Styles.css';
 import './About.css';
 import {Row, Col} from 'reactstrap';
-import Resume from '../assets/Resume.pdf';
+import Resume from '../assets/KristopherPrater.pdf';
 
-const About = () => {
+let About = () => {
   return (
     <section id="aboutMe">
         <h1 id="aboutTitle">A little about me...</h1>
         <br/>
+            <img src={require('../assets/KrisPrater.jpg')} alt="Kris Prater" className="headshot" class="img-fluid"/>
         <br/>
         <div className="aboutContainer">
         <Row className="row">
-            <Col id="columnOne">
+            <Col className="columnOne">
             {/* <h3>Who I am</h3> */}
             <p id="aboutText"> After a decade of working for the same company, in the warehouse industry, at levels varying from entry level to middle management I decided it was time for a change.  I left what I knew and embarked on a new journey in the world of computers. I am a recent graduate of the Web Development Bootcamp at Eleven Fifty Academy. After such a great experience and the feeling of accomplishment from all that I learned I decided to start the Software Development program. Outside of coding I am an avid football and race fan, and enjoy traveling with my family.</p>
             </Col>
             
-            <Col>
-                <img src={require('../assets/KrisPrater.jpg')} alt="Kris Prater" className="headshot" class="img-fluid"/>
+            <Col id="columnTwo">
             </Col>
             
             <Col id="columnThree">
@@ -31,7 +32,7 @@ const About = () => {
                         <li>Learning C#</li>
                 </ul>
                 <div id="resume"> 
-                        <a href={Resume} download="Kris_Prater_Resume.pdf">Click to download my resume!</a>
+                        <a href={Resume} download="KristopherPrater.pdf">Click to download my resume!</a>
                 </div>
                 <br/>
                 <br/>
