@@ -105,13 +105,13 @@ const Projects = () => {
 
                 <Col sm="3">
                 <Card>
-                <CardHeader>Project 8</CardHeader>
-                <a style={{cursor: 'pointer'}} href="https://www.google.com">
-                <CardImg img src={require('../assets/construction.jpg')} alt="NOTSURE" className="projectImg"/>
+                <CardHeader>A Helping Hand</CardHeader>
+                <a style={{cursor: 'pointer'}} href="https://ahelpinghandwebmvc.azurewebsites.net/">
+                <CardImg img src={require('../assets/HelpingHand.png')} alt="A Helping Hand" className="projectImg"/>
                 </a>
                 <CardBody>
-                    <CardTitle>TEST</CardTitle>
-                    <CardText>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur magna ipsum, vel lobortis leo pharetra vel. Duis diam dolor, malesuada vel imperdiet ut, posuere sed lacus. Nulla non diam vehicula, pharetra mauris quis, venenatis eros. Nunc sit amet mauris quis enim iaculis tristique.</CardText>
+                    <CardTitle>ASP.NET MVC 5</CardTitle>
+                    <CardText>.Net Framework MVC 5 Web Application using n-tier architecture deployed to Azure. This application was built to connect industry skilled professionals to people seeking their services.</CardText>
                 </CardBody>
                 </Card>
                 </Col>
