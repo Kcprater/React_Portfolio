@@ -11,7 +11,6 @@ const Home = (props) => {
         <h4>Web Developer</h4>
         <h4>&</h4>
         <h4>Software Developer</h4>
-        <h4>(In Training)</h4>
       </Jumbotron>
     </div>
   );
