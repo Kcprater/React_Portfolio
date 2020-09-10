@@ -29,7 +29,7 @@ let About = () => {
                         <li>20 years of customer service experience</li>
                         <li>Proficient in Microsoft Office</li>
                         <li>Skilled in Javascript, React, TypeScript, CSS, HTML</li>
-                        <li>Learning C#</li>
+                        <li>Working knowledge of C#, ASP.NET, MVC 5 </li>
                 </ul>
                 <div id="resume"> 
                         <a href={Resume} download="KristopherPrater.pdf">Click to download my resume!</a>
